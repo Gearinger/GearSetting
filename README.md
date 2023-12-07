@@ -1,2 +1,2 @@
 # GearSetting
-图床、gittalk、配置文件
+图片、gittalk配置、开放文档
