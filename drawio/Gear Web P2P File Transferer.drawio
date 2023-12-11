@@ -1,0 +1,61 @@
+<mxfile host="app.diagrams.net" modified="2023-12-11T03:49:47.726Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36 Edg/119.0.0.0" etag="u4YJxDR4o0B_sGpLC6zc" version="22.1.7" type="github">
+  <diagram name="第 1 页" id="XrXiFSM8o9AWmC29O2be">
+    <mxGraphModel dx="899" dy="571" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="jzixz5fxlLr4ZigYhKKb-2" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry y="40" width="560" height="340" as="geometry" />
+        </mxCell>
+        <mxCell id="jzixz5fxlLr4ZigYhKKb-3" value="公共聊天栏" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#b0e3e6;strokeColor=#0e8088;" parent="1" vertex="1">
+          <mxGeometry y="90" width="130" height="290" as="geometry" />
+        </mxCell>
+        <mxCell id="jzixz5fxlLr4ZigYhKKb-11" value="聊天输入栏" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#bac8d3;strokeColor=#23445d;" parent="1" vertex="1">
+          <mxGeometry y="350" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="jzixz5fxlLr4ZigYhKKb-4" value="我" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
+          <mxGeometry x="320" y="245" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="jzixz5fxlLr4ZigYhKKb-5" value="连接的用户1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+          <mxGeometry x="190" y="185" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="jzixz5fxlLr4ZigYhKKb-6" value="用户3" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+          <mxGeometry x="320" y="135" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="jzixz5fxlLr4ZigYhKKb-7" value="用户5" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+          <mxGeometry x="450" y="175" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="jzixz5fxlLr4ZigYhKKb-8" value="用户4" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+          <mxGeometry x="394" y="145" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="jzixz5fxlLr4ZigYhKKb-9" value="用户2" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+          <mxGeometry x="250" y="145" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="jzixz5fxlLr4ZigYhKKb-15" value="关于" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#647687;fontColor=#ffffff;strokeColor=#314354;" parent="1" vertex="1">
+          <mxGeometry x="490" y="60" width="50" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="jzixz5fxlLr4ZigYhKKb-16" value="广告位" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e3c800;fontColor=#000000;strokeColor=#B09500;" parent="1" vertex="1">
+          <mxGeometry x="130" y="320" width="430" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jzixz5fxlLr4ZigYhKKb-18" value="LOGO" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
+          <mxGeometry y="40" width="130" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="jzixz5fxlLr4ZigYhKKb-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="jzixz5fxlLr4ZigYhKKb-19" target="jzixz5fxlLr4ZigYhKKb-4" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jzixz5fxlLr4ZigYhKKb-19" value="鼠标悬浮显示用户的信息" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="384" y="250" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="jzixz5fxlLr4ZigYhKKb-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="jzixz5fxlLr4ZigYhKKb-21" target="jzixz5fxlLr4ZigYhKKb-9" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jzixz5fxlLr4ZigYhKKb-21" value="鼠标点击弹框选择文件传输，或者直接从外部拖动文件到头像" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="200" y="70" width="140" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="jzixz5fxlLr4ZigYhKKb-23" value="连接" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="1" vertex="1">
+          <mxGeometry x="430" y="60" width="50" height="25" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
