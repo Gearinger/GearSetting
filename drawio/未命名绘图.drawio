@@ -1,9 +1,69 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0" version="27.2.0">
   <diagram name="第 1 页" id="yKzsGjGlJCzEz0PzkmhI">
-    <mxGraphModel>
+    <mxGraphModel dx="1720" dy="2354" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="521r0auSrNCnQCu9ZBwB-28" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="521r0auSrNCnQCu9ZBwB-2" target="521r0auSrNCnQCu9ZBwB-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="521r0auSrNCnQCu9ZBwB-2" value="" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
+          <mxGeometry x="40" y="40" width="480" height="270" as="geometry" />
+        </mxCell>
+        <mxCell id="521r0auSrNCnQCu9ZBwB-1" value="service-a" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
+          <mxGeometry x="81" y="80" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="521r0auSrNCnQCu9ZBwB-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="521r0auSrNCnQCu9ZBwB-1" target="521r0auSrNCnQCu9ZBwB-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="521r0auSrNCnQCu9ZBwB-14" value="client-id&lt;div&gt;secret&lt;/div&gt;&lt;div&gt;timestamp&lt;/div&gt;&lt;div&gt;signature&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="521r0auSrNCnQCu9ZBwB-11">
+          <mxGeometry x="-0.1111" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="521r0auSrNCnQCu9ZBwB-3" value="service-b" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
+          <mxGeometry x="354" y="80" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="521r0auSrNCnQCu9ZBwB-8" value="nacos" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
+          <mxGeometry x="40" y="-80" width="480" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="521r0auSrNCnQCu9ZBwB-24" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="521r0auSrNCnQCu9ZBwB-15" target="521r0auSrNCnQCu9ZBwB-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="521r0auSrNCnQCu9ZBwB-26" value="clientid" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="521r0auSrNCnQCu9ZBwB-24">
+          <mxGeometry x="-0.2582" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="521r0auSrNCnQCu9ZBwB-15" value="SpringCloud Gateway" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
+          <mxGeometry x="40" y="360" width="480" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="521r0auSrNCnQCu9ZBwB-16" value="" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlActor;" vertex="1" parent="1">
+          <mxGeometry x="680" y="-80" width="20" height="550" as="geometry" />
+        </mxCell>
+        <mxCell id="521r0auSrNCnQCu9ZBwB-17" value="gateway" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="800" y="-80" width="100" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="521r0auSrNCnQCu9ZBwB-18" value="service-a" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="960" y="-80" width="100" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="521r0auSrNCnQCu9ZBwB-19" value="service-b" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="1120" y="-80" width="100" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="521r0auSrNCnQCu9ZBwB-20" value="nacos" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="1280" y="-80" width="100" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="521r0auSrNCnQCu9ZBwB-22" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="521r0auSrNCnQCu9ZBwB-21" target="521r0auSrNCnQCu9ZBwB-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="521r0auSrNCnQCu9ZBwB-23" value="jwt" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="521r0auSrNCnQCu9ZBwB-22">
+          <mxGeometry x="-0.3091" y="3" relative="1" as="geometry">
+            <mxPoint x="3" y="-13" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="521r0auSrNCnQCu9ZBwB-21" value="frontend" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
+          <mxGeometry x="40" y="450" width="480" height="40" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
